@@ -8,7 +8,7 @@ The dataset used is the publicly available FewRel dataset. Please refer to the f
 
 ## Code
 We provide our PRM-FSRE and the baseline Proto-FSRE in the code.
-You can the main results of our experiment by running the following code. 
+You can get the main results of our experiment by running the following code. 
 ```
 sh run_my.sh
 ```
