@@ -84,8 +84,8 @@ class FewShotREModel(nn.Module):
             
             res -= math.log(first/second)
             
-            import pdb
-            pdb.set_trace()
+            #import pdb
+            #pdb.set_trace()
             
         res = res / logits.size(0)
         return res
@@ -365,8 +365,8 @@ class FewShotREFramework:
                 time_end = time.time()
                 print(time_start-time_end)
                 
-                import pdb
-                pdb.set_trace()
+                #import pdb
+                #pdb.set_trace()
                 
                 acc = self.eval(model, B, N_for_eval, K, Q, val_iter, 
                         na_rate=na_rate, pair=pair)
