@@ -1,4 +1,4 @@
-from models import proto
+from models import proto_7_2
 from models import snail
 from models import gnn
 from models import metanet
